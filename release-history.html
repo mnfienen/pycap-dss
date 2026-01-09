@@ -71,6 +71,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#version-1-1-0-2025-11-25">Version 1.1.0 (2025-11-25)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#version-1-1-1-2025-11-30">Version 1.1.1 (2025-11-30)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#version-1-1-2-2025-12-06">Version 1.1.2 (2025-12-06)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#version-1-2-0-2026-01-10">Version 1.2.0 (2026-01-10)</a></li>
 </ul>
 </li>
 </ul>
@@ -174,6 +175,20 @@ an external yml file.</p>
 <dt>Updates for Ward-Lough from PR #69</dt><dd><ul>
 <li><p>change variable name for time from <cite>t</cite> to <cite>time</cite> for consistency with other solultions</p></li>
 <li><p>accomodate a single scalar time at which to calculate</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="version-1-2-0-2026-01-10">
+<h2>Version 1.2.0 (2026-01-10)<a class="headerlink" href="#version-1-2-0-2026-01-10" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Refactoring to properly name the Dudley Ward and Lough functions</dt><dd><ul>
+<li><p>Recognized we were erroneously referring to the Dudley Ward and Lough solution as simply Ward and Lough. Refactored to change the spelling in comments and function names.</p></li>
+<li><p>solution <cite>ward_lough_drawdown</cite> is now <cite>dudley_ward_lough_drawdown</cite></p></li>
+<li><p>solution <cite>ward_lough_depletion</cite> is now <cite>dudley_ward_lough_depletion</cite></p></li>
 </ul>
 </dd>
 </dl>
